@@ -1,0 +1,21 @@
+{
+  "name": "purescript-location",
+  "version": "1.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-eff": "^0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdepillabout/purescript-location"
+  },
+  "license": "BSD3"
+}
