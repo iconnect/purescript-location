@@ -4,3 +4,5 @@
 /.psci*
 /src/.webpack.js
 /.pulp-cache/
+tags
+.spago*

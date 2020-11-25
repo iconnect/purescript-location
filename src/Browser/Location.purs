@@ -2,10 +2,8 @@ module Browser.Location where
 
 import Prelude
 
-import Control.Monad.Eff (Eff())
+import Effect (Effect())
 
-foreign import data LOCATION :: !
+foreign import getLocation :: Effect String
 
-foreign import getLocation :: forall e . Eff (location :: LOCATION | e) String
-
-foreign import setLocation :: forall e . String -> Eff (location :: LOCATION | e) Unit
+foreign import setLocation :: String -> Effect Unit
